@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="795.441" tests="24" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Aditya/Documents/workspace/FIportalTestAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/Aditya/Documents/workspace/FIportalTestAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/Aditya/Documents/workspace/FIportalTestAutomation"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/kg/3wk4g21175jbhk3z6vc3ypv80000gr/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/Aditya/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7869279494940730847.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/Aditya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="surefire.test.class.path" value="/Users/Aditya/Documents/workspace/FIportalTestAutomation/target/test-classes:/Users/Aditya/Documents/workspace/FIportalTestAutomation/target/classes:/Users/Aditya/.m2/repository/info/cukes/cucumber-core/1.2.3/cucumber-core-1.2.3.jar:/Users/Aditya/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/Aditya/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/Aditya/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/Aditya/.m2/repository/org/seleniumhq/selenium/selenium-java/2.46.0/selenium-java-2.46.0.jar:/Users/Aditya/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.46.0/selenium-chrome-driver-2.46.0.jar:/Users/Aditya/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.46.0/selenium-remote-driver-2.46.0.jar:/Users/Aditya/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/Aditya/.m2/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar:/Users/Aditya/.m2/repository/org/seleniumhq/selenium/selenium-api/2.46.0/selenium-api-2.46.0.jar:/Users/Aditya/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/Users/Aditya/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.46.0/selenium-htmlunit-driver-2.46.0.jar:/Users/Aditya/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.17/htmlunit-2.17.jar:/Users/Aditya/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/Aditya/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/Aditya/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Aditya/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/Aditya/.m2/repository/org/apache/httpcomponents/httpmime/4.4.1/httpmime-4.4.1.jar:/Users/Aditya/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/Aditya/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar:/Users/Aditya/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/Aditya/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/Aditya/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar:/Users/Aditya/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16.jar:/Users/Aditya/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Aditya/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Aditya/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.11.v20150529/websocket-client-9.2.11.v20150529.jar:/Users/Aditya/.m2/repository/org/eclipse/jetty/jetty-util/9.2.11.v20150529/jetty-util-9.2.11.v20150529.jar:/Users/Aditya/.m2/repository/org/eclipse/jetty/jetty-io/9.2.11.v20150529/jetty-io-9.2.11.v20150529.jar:/Users/Aditya/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.11.v20150529/websocket-common-9.2.11.v20150529.jar:/Users/Aditya/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.11.v20150529/websocket-api-9.2.11.v20150529.jar:/Users/Aditya/.m2/repository/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1.jar:/Users/Aditya/.m2/repository/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.jar:/Users/Aditya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.46.0/selenium-firefox-driver-2.46.0.jar:/Users/Aditya/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/Aditya/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Aditya/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.46.0/selenium-ie-driver-2.46.0.jar:/Users/Aditya/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/Aditya/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/Aditya/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.46.0/selenium-safari-driver-2.46.0.jar:/Users/Aditya/.m2/repository/org/seleniumhq/selenium/selenium-support/2.46.0/selenium-support-2.46.0.jar:/Users/Aditya/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/Aditya/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:/Users/Aditya/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.46.0/selenium-leg-rc-2.46.0.jar:/Users/Aditya/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/Aditya/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/Aditya/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/Aditya/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/Aditya/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/Aditya/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.18.1/surefire-testng-utils-2.18.1.jar:/Users/Aditya/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.18.1/surefire-grouper-2.18.1.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/Aditya"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Aditya"/>
+    <property name="java.class.path" value="/Applications/STS.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="/Users/Aditya/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/Aditya/Documents/workspace/FIportalTestAutomation/EMBEDDED"/>
+    <property name="localRepository" value="/Users/Aditya/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testFilesfromTeamwork" classname="com.code.java.selenium.FilesfromTeamwork" time="50.317"/>
+  <testcase name="testsignInPage" classname="com.code.java.selenium.SignInPageandForgetPasswordTest" time="27.552"/>
+  <testcase name="testDashboard" classname="com.code.java.selenium.Dashboard" time="46.575"/>
+  <testcase name="testDashboard" classname="com.code.java.selenium.Dashboard" time="53.8"/>
+  <testcase name="testBuzzPointsUserPage" classname="com.code.java.selenium.BuzzPointsUserPage" time="36.272"/>
+  <testcase name="testBuzzPointsUserPage" classname="com.code.java.selenium.BuzzPointsUserPage" time="40.312"/>
+  <testcase name="testEmployeeManagementpage" classname="com.code.java.selenium.EmployeeManagementpage" time="48.251"/>
+  <testcase name="testEmployeeManagementpage" classname="com.code.java.selenium.EmployeeManagementpage" time="51.685"/>
+  <testcase name="testEmployeeProfile" classname="com.code.java.selenium.EmployeeProfile" time="68.9"/>
+  <testcase name="testEmployeeProfile" classname="com.code.java.selenium.EmployeeProfile" time="69.684"/>
+  <testcase name="testEmployeeProfileEdit" classname="com.code.java.selenium.EmployeeProfileEdit" time="39.134"/>
+  <testcase name="testEmployeeProfileEdit" classname="com.code.java.selenium.EmployeeProfileEdit" time="42.248"/>
+  <testcase name="testMyProfile" classname="com.code.java.selenium.MyProfile" time="31.323"/>
+  <testcase name="testMyProfile" classname="com.code.java.selenium.MyProfile" time="35.004"/>
+  <testcase name="testEnrollmentReport" classname="com.code.java.selenium.ReportPage_EnrollmentReport" time="87.597"/>
+  <testcase name="testEnrollmentReport" classname="com.code.java.selenium.ReportPage_EnrollmentReport" time="92.795"/>
+  <testcase name="testPendingEnrollmentsReport" classname="com.code.java.selenium.ReportPage_PendingEnrollmentsReport" time="93.004"/>
+  <testcase name="testPendingEnrollmentsReport" classname="com.code.java.selenium.ReportPage_PendingEnrollmentsReport" time="94.088"/>
+  <testcase name="testPreferredLocalBusinessReport" classname="com.code.java.selenium.ReportPage_PreferredLocalBusinessReport" time="105.514"/>
+  <testcase name="testPreferredLocalBusinessReport" classname="com.code.java.selenium.ReportPage_PreferredLocalBusinessReport" time="119.811"/>
+  <testcase name="testRewardRedemptionReport" classname="com.code.java.selenium.ReportPage_RewardRedemptionReport" time="98.7"/>
+  <testcase name="testRewardRedemptionReport" classname="com.code.java.selenium.ReportPage_RewardRedemptionReport" time="100.179"/>
+  <testcase name="testFilesfromTeamwork" classname="com.code.java.selenium.FilesfromTeamworkDev" time="32.261"/>
+  <testcase name="testsignInPage" classname="com.code.java.selenium.SignInPageandForgetPasswordTestDev" time="30.041"/>
+</testsuite>

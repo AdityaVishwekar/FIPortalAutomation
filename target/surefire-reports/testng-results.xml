@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="24" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium" duration-ms="1710172" started-at="2016-08-23T18:40:25Z" finished-at="2016-08-23T19:08:55Z">
+    <groups>
+    </groups>
+    <test name="Staging environment" duration-ms="827492" started-at="2016-08-23T18:40:25Z" finished-at="2016-08-23T18:54:12Z">
+      <class name="com.code.java.selenium.MyProfile">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.MyProfile@16d41725]" name="setUp" is-config="true" duration-ms="6110" started-at="2016-08-23T13:46:30Z" finished-at="2016-08-23T13:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://insightstg.buzzpoints.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMyProfile()[pri:0, instance:com.code.java.selenium.MyProfile@16d41725]" name="testMyProfile" duration-ms="31323" started-at="2016-08-23T13:46:36Z" finished-at="2016-08-23T13:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyProfile -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.MyProfile@16d41725]" name="tearDown" is-config="true" duration-ms="140" started-at="2016-08-23T13:47:08Z" finished-at="2016-08-23T13:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.MyProfile -->
+      <class name="com.code.java.selenium.SignInPageandForgetPasswordTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.SignInPageandForgetPasswordTest@685d7ba5]" name="setUp" is-config="true" duration-ms="6267" started-at="2016-08-23T13:41:24Z" finished-at="2016-08-23T13:41:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://insightstg.buzzpoints.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testsignInPage()[pri:0, instance:com.code.java.selenium.SignInPageandForgetPasswordTest@685d7ba5]" name="testsignInPage" duration-ms="27552" started-at="2016-08-23T13:41:31Z" finished-at="2016-08-23T13:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsignInPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.SignInPageandForgetPasswordTest@685d7ba5]" name="tearDown" is-config="true" duration-ms="144" started-at="2016-08-23T13:41:58Z" finished-at="2016-08-23T13:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.SignInPageandForgetPasswordTest -->
+      <class name="com.code.java.selenium.BuzzPointsUserPage">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.BuzzPointsUserPage@dc59ec2]" name="setUp" is-config="true" duration-ms="6444" started-at="2016-08-23T13:42:51Z" finished-at="2016-08-23T13:42:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://insightstg.buzzpoints.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBuzzPointsUserPage()[pri:0, instance:com.code.java.selenium.BuzzPointsUserPage@dc59ec2]" name="testBuzzPointsUserPage" duration-ms="36272" started-at="2016-08-23T13:42:58Z" finished-at="2016-08-23T13:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuzzPointsUserPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.BuzzPointsUserPage@dc59ec2]" name="tearDown" is-config="true" duration-ms="162" started-at="2016-08-23T13:43:34Z" finished-at="2016-08-23T13:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.BuzzPointsUserPage -->
+      <class name="com.code.java.selenium.FilesfromTeamwork">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.FilesfromTeamwork@197ce367]" name="setUp" is-config="true" duration-ms="9023" started-at="2016-08-23T13:40:25Z" finished-at="2016-08-23T13:40:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://insightstg.buzzpoints.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFilesfromTeamwork()[pri:0, instance:com.code.java.selenium.FilesfromTeamwork@197ce367]" name="testFilesfromTeamwork" duration-ms="50317" started-at="2016-08-23T13:40:34Z" finished-at="2016-08-23T13:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilesfromTeamwork -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.FilesfromTeamwork@197ce367]" name="tearDown" is-config="true" duration-ms="145" started-at="2016-08-23T13:41:24Z" finished-at="2016-08-23T13:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.FilesfromTeamwork -->
+      <class name="com.code.java.selenium.ReportPage_PendingEnrollmentsReport">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.ReportPage_PendingEnrollmentsReport@100bba26]" name="setUp" is-config="true" duration-ms="16153" started-at="2016-08-23T13:48:42Z" finished-at="2016-08-23T13:48:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://insightstg.buzzpoints.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPendingEnrollmentsReport()[pri:0, instance:com.code.java.selenium.ReportPage_PendingEnrollmentsReport@100bba26]" name="testPendingEnrollmentsReport" duration-ms="93004" started-at="2016-08-23T13:48:58Z" finished-at="2016-08-23T13:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPendingEnrollmentsReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.ReportPage_PendingEnrollmentsReport@100bba26]" name="tearDown" is-config="true" duration-ms="163" started-at="2016-08-23T13:50:31Z" finished-at="2016-08-23T13:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.ReportPage_PendingEnrollmentsReport -->
+      <class name="com.code.java.selenium.EmployeeProfileEdit">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.EmployeeProfileEdit@25533bba]" name="setUp" is-config="true" duration-ms="7121" started-at="2016-08-23T13:45:44Z" finished-at="2016-08-23T13:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://insightstg.buzzpoints.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testEmployeeProfileEdit()[pri:0, instance:com.code.java.selenium.EmployeeProfileEdit@25533bba]" name="testEmployeeProfileEdit" duration-ms="39134" started-at="2016-08-23T13:45:51Z" finished-at="2016-08-23T13:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeProfileEdit -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.EmployeeProfileEdit@25533bba]" name="tearDown" is-config="true" duration-ms="152" started-at="2016-08-23T13:46:30Z" finished-at="2016-08-23T13:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.EmployeeProfileEdit -->
+      <class name="com.code.java.selenium.ReportPage_EnrollmentReport">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.ReportPage_EnrollmentReport@26d0ece6]" name="setUp" is-config="true" duration-ms="6150" started-at="2016-08-23T13:47:08Z" finished-at="2016-08-23T13:47:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://insightstg.buzzpoints.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testEnrollmentReport()[pri:0, instance:com.code.java.selenium.ReportPage_EnrollmentReport@26d0ece6]" name="testEnrollmentReport" duration-ms="87596" started-at="2016-08-23T13:47:14Z" finished-at="2016-08-23T13:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnrollmentReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.ReportPage_EnrollmentReport@26d0ece6]" name="tearDown" is-config="true" duration-ms="143" started-at="2016-08-23T13:48:42Z" finished-at="2016-08-23T13:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.ReportPage_EnrollmentReport -->
+      <class name="com.code.java.selenium.EmployeeProfile">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.EmployeeProfile@65036e8d]" name="setUp" is-config="true" duration-ms="5968" started-at="2016-08-23T13:44:29Z" finished-at="2016-08-23T13:44:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://insightstg.buzzpoints.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testEmployeeProfile()[pri:0, instance:com.code.java.selenium.EmployeeProfile@65036e8d]" name="testEmployeeProfile" duration-ms="68900" started-at="2016-08-23T13:44:35Z" finished-at="2016-08-23T13:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeProfile -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.EmployeeProfile@65036e8d]" name="tearDown" is-config="true" duration-ms="173" started-at="2016-08-23T13:45:44Z" finished-at="2016-08-23T13:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.EmployeeProfile -->
+      <class name="com.code.java.selenium.Dashboard">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.Dashboard@3b6c2be6]" name="setUp" is-config="true" duration-ms="6158" started-at="2016-08-23T13:41:58Z" finished-at="2016-08-23T13:42:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://insightstg.buzzpoints.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDashboard()[pri:0, instance:com.code.java.selenium.Dashboard@3b6c2be6]" name="testDashboard" duration-ms="46574" started-at="2016-08-23T13:42:04Z" finished-at="2016-08-23T13:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboard -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.Dashboard@3b6c2be6]" name="tearDown" is-config="true" duration-ms="151" started-at="2016-08-23T13:42:51Z" finished-at="2016-08-23T13:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.Dashboard -->
+      <class name="com.code.java.selenium.ReportPage_RewardRedemptionReport">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.ReportPage_RewardRedemptionReport@71bb8b34]" name="setUp" is-config="true" duration-ms="7332" started-at="2016-08-23T13:52:26Z" finished-at="2016-08-23T13:52:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://insightstg.buzzpoints.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRewardRedemptionReport()[pri:0, instance:com.code.java.selenium.ReportPage_RewardRedemptionReport@71bb8b34]" name="testRewardRedemptionReport" duration-ms="98700" started-at="2016-08-23T13:52:33Z" finished-at="2016-08-23T13:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRewardRedemptionReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.ReportPage_RewardRedemptionReport@71bb8b34]" name="tearDown" is-config="true" duration-ms="192" started-at="2016-08-23T13:54:12Z" finished-at="2016-08-23T13:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.ReportPage_RewardRedemptionReport -->
+      <class name="com.code.java.selenium.ReportPage_PreferredLocalBusinessReport">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.ReportPage_PreferredLocalBusinessReport@48ccbb32]" name="setUp" is-config="true" duration-ms="9301" started-at="2016-08-23T13:50:31Z" finished-at="2016-08-23T13:50:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://insightstg.buzzpoints.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPreferredLocalBusinessReport()[pri:0, instance:com.code.java.selenium.ReportPage_PreferredLocalBusinessReport@48ccbb32]" name="testPreferredLocalBusinessReport" duration-ms="105514" started-at="2016-08-23T13:50:40Z" finished-at="2016-08-23T13:52:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPreferredLocalBusinessReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.ReportPage_PreferredLocalBusinessReport@48ccbb32]" name="tearDown" is-config="true" duration-ms="152" started-at="2016-08-23T13:52:26Z" finished-at="2016-08-23T13:52:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.ReportPage_PreferredLocalBusinessReport -->
+      <class name="com.code.java.selenium.EmployeeManagementpage">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.EmployeeManagementpage@36551e97]" name="setUp" is-config="true" duration-ms="6391" started-at="2016-08-23T13:43:34Z" finished-at="2016-08-23T13:43:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://insightstg.buzzpoints.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testEmployeeManagementpage()[pri:0, instance:com.code.java.selenium.EmployeeManagementpage@36551e97]" name="testEmployeeManagementpage" duration-ms="48252" started-at="2016-08-23T13:43:41Z" finished-at="2016-08-23T13:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeManagementpage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.EmployeeManagementpage@36551e97]" name="tearDown" is-config="true" duration-ms="160" started-at="2016-08-23T13:44:29Z" finished-at="2016-08-23T13:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.EmployeeManagementpage -->
+    </test> <!-- Staging environment -->
+    <test name="DevQA" duration-ms="882152" started-at="2016-08-23T18:54:13Z" finished-at="2016-08-23T19:08:55Z">
+      <class name="com.code.java.selenium.MyProfile">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.MyProfile@10fb4575]" name="setUp" is-config="true" duration-ms="9820" started-at="2016-08-23T14:00:42Z" finished-at="2016-08-23T14:00:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://hetzner.buzzpoints.com:3010/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMyProfile()[pri:0, instance:com.code.java.selenium.MyProfile@10fb4575]" name="testMyProfile" duration-ms="35003" started-at="2016-08-23T14:00:52Z" finished-at="2016-08-23T14:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyProfile -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.MyProfile@10fb4575]" name="tearDown" is-config="true" duration-ms="152" started-at="2016-08-23T14:01:27Z" finished-at="2016-08-23T14:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.MyProfile -->
+      <class name="com.code.java.selenium.BuzzPointsUserPage">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.BuzzPointsUserPage@64a1116a]" name="setUp" is-config="true" duration-ms="9728" started-at="2016-08-23T13:56:39Z" finished-at="2016-08-23T13:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://hetzner.buzzpoints.com:3010/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBuzzPointsUserPage()[pri:0, instance:com.code.java.selenium.BuzzPointsUserPage@64a1116a]" name="testBuzzPointsUserPage" duration-ms="40311" started-at="2016-08-23T13:56:49Z" finished-at="2016-08-23T13:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuzzPointsUserPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.BuzzPointsUserPage@64a1116a]" name="tearDown" is-config="true" duration-ms="179" started-at="2016-08-23T13:57:29Z" finished-at="2016-08-23T13:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.BuzzPointsUserPage -->
+      <class name="com.code.java.selenium.ReportPage_PendingEnrollmentsReport">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.ReportPage_PendingEnrollmentsReport@2bcda694]" name="setUp" is-config="true" duration-ms="9022" started-at="2016-08-23T14:03:09Z" finished-at="2016-08-23T14:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://hetzner.buzzpoints.com:3010/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPendingEnrollmentsReport()[pri:0, instance:com.code.java.selenium.ReportPage_PendingEnrollmentsReport@2bcda694]" name="testPendingEnrollmentsReport" duration-ms="94089" started-at="2016-08-23T14:03:18Z" finished-at="2016-08-23T14:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPendingEnrollmentsReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.ReportPage_PendingEnrollmentsReport@2bcda694]" name="tearDown" is-config="true" duration-ms="176" started-at="2016-08-23T14:04:52Z" finished-at="2016-08-23T14:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.ReportPage_PendingEnrollmentsReport -->
+      <class name="com.code.java.selenium.EmployeeProfileEdit">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.EmployeeProfileEdit@69feb4d9]" name="setUp" is-config="true" duration-ms="8786" started-at="2016-08-23T13:59:51Z" finished-at="2016-08-23T13:59:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://hetzner.buzzpoints.com:3010/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testEmployeeProfileEdit()[pri:0, instance:com.code.java.selenium.EmployeeProfileEdit@69feb4d9]" name="testEmployeeProfileEdit" duration-ms="42248" started-at="2016-08-23T13:59:59Z" finished-at="2016-08-23T14:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeProfileEdit -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.EmployeeProfileEdit@69feb4d9]" name="tearDown" is-config="true" duration-ms="141" started-at="2016-08-23T14:00:42Z" finished-at="2016-08-23T14:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.EmployeeProfileEdit -->
+      <class name="com.code.java.selenium.EmployeeProfile">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.EmployeeProfile@19eea77c]" name="setUp" is-config="true" duration-ms="8786" started-at="2016-08-23T13:58:32Z" finished-at="2016-08-23T13:58:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://hetzner.buzzpoints.com:3010/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testEmployeeProfile()[pri:0, instance:com.code.java.selenium.EmployeeProfile@19eea77c]" name="testEmployeeProfile" duration-ms="69684" started-at="2016-08-23T13:58:41Z" finished-at="2016-08-23T13:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeProfile -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.EmployeeProfile@19eea77c]" name="tearDown" is-config="true" duration-ms="147" started-at="2016-08-23T13:59:50Z" finished-at="2016-08-23T13:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.EmployeeProfile -->
+      <class name="com.code.java.selenium.ReportPage_EnrollmentReport">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.ReportPage_EnrollmentReport@37c1cfa]" name="setUp" is-config="true" duration-ms="9382" started-at="2016-08-23T14:01:27Z" finished-at="2016-08-23T14:01:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://hetzner.buzzpoints.com:3010/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testEnrollmentReport()[pri:0, instance:com.code.java.selenium.ReportPage_EnrollmentReport@37c1cfa]" name="testEnrollmentReport" duration-ms="92795" started-at="2016-08-23T14:01:36Z" finished-at="2016-08-23T14:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnrollmentReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.ReportPage_EnrollmentReport@37c1cfa]" name="tearDown" is-config="true" duration-ms="163" started-at="2016-08-23T14:03:09Z" finished-at="2016-08-23T14:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.ReportPage_EnrollmentReport -->
+      <class name="com.code.java.selenium.Dashboard">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.Dashboard@7cc2c551]" name="setUp" is-config="true" duration-ms="9883" started-at="2016-08-23T13:55:35Z" finished-at="2016-08-23T13:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://hetzner.buzzpoints.com:3010/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDashboard()[pri:0, instance:com.code.java.selenium.Dashboard@7cc2c551]" name="testDashboard" duration-ms="53797" started-at="2016-08-23T13:55:45Z" finished-at="2016-08-23T13:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboard -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.Dashboard@7cc2c551]" name="tearDown" is-config="true" duration-ms="171" started-at="2016-08-23T13:56:39Z" finished-at="2016-08-23T13:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.Dashboard -->
+      <class name="com.code.java.selenium.FilesfromTeamworkDev">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.FilesfromTeamworkDev@d84b3a2]" name="setUp" is-config="true" duration-ms="10285" started-at="2016-08-23T13:54:13Z" finished-at="2016-08-23T13:54:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://hetzner.buzzpoints.com:3010/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFilesfromTeamwork()[pri:0, instance:com.code.java.selenium.FilesfromTeamworkDev@d84b3a2]" name="testFilesfromTeamwork" duration-ms="32261" started-at="2016-08-23T13:54:23Z" finished-at="2016-08-23T13:54:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilesfromTeamwork -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.FilesfromTeamworkDev@d84b3a2]" name="tearDown" is-config="true" duration-ms="161" started-at="2016-08-23T13:54:55Z" finished-at="2016-08-23T13:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.FilesfromTeamworkDev -->
+      <class name="com.code.java.selenium.ReportPage_RewardRedemptionReport">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.ReportPage_RewardRedemptionReport@11e17893]" name="setUp" is-config="true" duration-ms="9201" started-at="2016-08-23T14:07:06Z" finished-at="2016-08-23T14:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://hetzner.buzzpoints.com:3010/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRewardRedemptionReport()[pri:0, instance:com.code.java.selenium.ReportPage_RewardRedemptionReport@11e17893]" name="testRewardRedemptionReport" duration-ms="100179" started-at="2016-08-23T14:07:15Z" finished-at="2016-08-23T14:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRewardRedemptionReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.ReportPage_RewardRedemptionReport@11e17893]" name="tearDown" is-config="true" duration-ms="146" started-at="2016-08-23T14:08:55Z" finished-at="2016-08-23T14:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.ReportPage_RewardRedemptionReport -->
+      <class name="com.code.java.selenium.ReportPage_PreferredLocalBusinessReport">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.ReportPage_PreferredLocalBusinessReport@6682e6a5]" name="setUp" is-config="true" duration-ms="13217" started-at="2016-08-23T14:04:52Z" finished-at="2016-08-23T14:05:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://hetzner.buzzpoints.com:3010/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPreferredLocalBusinessReport()[pri:0, instance:com.code.java.selenium.ReportPage_PreferredLocalBusinessReport@6682e6a5]" name="testPreferredLocalBusinessReport" duration-ms="119810" started-at="2016-08-23T14:05:06Z" finished-at="2016-08-23T14:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPreferredLocalBusinessReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.ReportPage_PreferredLocalBusinessReport@6682e6a5]" name="tearDown" is-config="true" duration-ms="144" started-at="2016-08-23T14:07:05Z" finished-at="2016-08-23T14:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.ReportPage_PreferredLocalBusinessReport -->
+      <class name="com.code.java.selenium.EmployeeManagementpage">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.EmployeeManagementpage@ac4915e]" name="setUp" is-config="true" duration-ms="10574" started-at="2016-08-23T13:57:29Z" finished-at="2016-08-23T13:57:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://hetzner.buzzpoints.com:3010/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testEmployeeManagementpage()[pri:0, instance:com.code.java.selenium.EmployeeManagementpage@ac4915e]" name="testEmployeeManagementpage" duration-ms="51685" started-at="2016-08-23T13:57:40Z" finished-at="2016-08-23T13:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeManagementpage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.EmployeeManagementpage@ac4915e]" name="tearDown" is-config="true" duration-ms="178" started-at="2016-08-23T13:58:32Z" finished-at="2016-08-23T13:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.EmployeeManagementpage -->
+      <class name="com.code.java.selenium.SignInPageandForgetPasswordTestDev">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.java.selenium.SignInPageandForgetPasswordTestDev@23648d2d]" name="setUp" is-config="true" duration-ms="9608" started-at="2016-08-23T13:54:56Z" finished-at="2016-08-23T13:55:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://hetzner.buzzpoints.com:3010/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admincadauto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aaaaaaa1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testsignInPage()[pri:0, instance:com.code.java.selenium.SignInPageandForgetPasswordTestDev@23648d2d]" name="testsignInPage" duration-ms="30041" started-at="2016-08-23T13:55:05Z" finished-at="2016-08-23T13:55:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsignInPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.code.java.selenium.SignInPageandForgetPasswordTestDev@23648d2d]" name="tearDown" is-config="true" duration-ms="147" started-at="2016-08-23T13:55:35Z" finished-at="2016-08-23T13:55:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.code.java.selenium.SignInPageandForgetPasswordTestDev -->
+    </test> <!-- DevQA -->
+  </suite> <!-- Selenium -->
+</testng-results>

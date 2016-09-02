@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium" verbose="1" thread-count="3" parallel="false">
+	<test name="Staging environment" preserve-order="true">
+	<parameter name="url" value="https://insightstg.buzzpoints.com"></parameter>
+	<parameter name="user" value="admincadauto"></parameter>
+	<parameter name="password" value="Aaaaaaa1"></parameter>
+		<classes>
+ 		<class name="com.code.java.selenium.FilesfromTeamwork" /> 
+		<class name="com.code.java.selenium.SignInPageandForgetPasswordTest" />
+  			<class name="com.code.java.selenium.Dashboard" />
+			<class name="com.code.java.selenium.BuzzPointsUserPage" />
+			<class name="com.code.java.selenium.EmployeeManagementpage" />
+			<class name="com.code.java.selenium.EmployeeProfile" />	
+			<class name="com.code.java.selenium.EmployeeProfileEdit" />		 	
+			<class name="com.code.java.selenium.MyProfile" />
+ 			<class name="com.code.java.selenium.ReportPage_EnrollmentReport" />
+			<class name="com.code.java.selenium.ReportPage_PendingEnrollmentsReport" />
+			<class name="com.code.java.selenium.ReportPage_PreferredLocalBusinessReport" />
+			<class name="com.code.java.selenium.ReportPage_RewardRedemptionReport" /> 
+		</classes>
+	</test>
+	<test name="DevQA" preserve-order="true">
+	<parameter name="url" value="http://hetzner.buzzpoints.com:3010/"></parameter>
+	<parameter name="user" value="admincadauto"></parameter>
+	<parameter name="password" value="Aaaaaaa1"></parameter>
+		<classes>
+		<class name="com.code.java.selenium.FilesfromTeamworkDev" />
+			<class name="com.code.java.selenium.SignInPageandForgetPasswordTestDev" />
+			<class name="com.code.java.selenium.Dashboard" />
+			<class name="com.code.java.selenium.BuzzPointsUserPage" />
+			<class name="com.code.java.selenium.EmployeeManagementpage" />
+			<class name="com.code.java.selenium.EmployeeProfile" />	
+			<class name="com.code.java.selenium.EmployeeProfileEdit" />			
+			<class name="com.code.java.selenium.MyProfile" />
+			<class name="com.code.java.selenium.ReportPage_EnrollmentReport" />
+			<class name="com.code.java.selenium.ReportPage_PendingEnrollmentsReport" />
+			<class name="com.code.java.selenium.ReportPage_PreferredLocalBusinessReport" />
+			<class name="com.code.java.selenium.ReportPage_RewardRedemptionReport" />
+		</classes>
+	</test>   
+</suite> 

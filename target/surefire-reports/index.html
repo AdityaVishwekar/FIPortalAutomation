@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Selenium">
+              <span class="suite-name border-passed">Selenium</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Selenium">
+                    <span>selenium.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Selenium">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Selenium">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Selenium">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Selenium">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Selenium">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Selenium">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Selenium" class="hide-methods passed suite-Selenium"> (hide)</a> <!-- hide-methods passed suite-Selenium -->
+                      <a href="#" panel-name="suite-Selenium" class="show-methods passed suite-Selenium"> (show)</a> <!-- show-methods passed suite-Selenium -->
+                    </span>
+                    <div class="method-list-content passed suite-Selenium">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.BuzzPointsUserPage" hash-for-method="testBuzzPointsUserPage">testBuzzPointsUserPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.BuzzPointsUserPage" hash-for-method="testBuzzPointsUserPage">testBuzzPointsUserPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.Dashboard" hash-for-method="testDashboard">testDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.Dashboard" hash-for-method="testDashboard">testDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.EmployeeManagementpage" hash-for-method="testEmployeeManagementpage">testEmployeeManagementpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.EmployeeManagementpage" hash-for-method="testEmployeeManagementpage">testEmployeeManagementpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.EmployeeProfile" hash-for-method="testEmployeeProfile">testEmployeeProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.EmployeeProfile" hash-for-method="testEmployeeProfile">testEmployeeProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.EmployeeProfileEdit" hash-for-method="testEmployeeProfileEdit">testEmployeeProfileEdit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.EmployeeProfileEdit" hash-for-method="testEmployeeProfileEdit">testEmployeeProfileEdit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.ReportPage_EnrollmentReport" hash-for-method="testEnrollmentReport">testEnrollmentReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.ReportPage_EnrollmentReport" hash-for-method="testEnrollmentReport">testEnrollmentReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.FilesfromTeamwork" hash-for-method="testFilesfromTeamwork">testFilesfromTeamwork</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.FilesfromTeamworkDev" hash-for-method="testFilesfromTeamwork">testFilesfromTeamwork</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.MyProfile" hash-for-method="testMyProfile">testMyProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.MyProfile" hash-for-method="testMyProfile">testMyProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.ReportPage_PendingEnrollmentsReport" hash-for-method="testPendingEnrollmentsReport">testPendingEnrollmentsReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.ReportPage_PendingEnrollmentsReport" hash-for-method="testPendingEnrollmentsReport">testPendingEnrollmentsReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.ReportPage_PreferredLocalBusinessReport" hash-for-method="testPreferredLocalBusinessReport">testPreferredLocalBusinessReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.ReportPage_PreferredLocalBusinessReport" hash-for-method="testPreferredLocalBusinessReport">testPreferredLocalBusinessReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.ReportPage_RewardRedemptionReport" hash-for-method="testRewardRedemptionReport">testRewardRedemptionReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.ReportPage_RewardRedemptionReport" hash-for-method="testRewardRedemptionReport">testRewardRedemptionReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.SignInPageandForgetPasswordTest" hash-for-method="testsignInPage">testsignInPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium" title="com.code.java.selenium.SignInPageandForgetPasswordTestDev" hash-for-method="testsignInPage">testsignInPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Selenium -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Selenium" class="panel Selenium">
+          <div class="suite-Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.code.java.selenium.BuzzPointsUserPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBuzzPointsUserPage">
+                  </a> <!-- testBuzzPointsUserPage -->
+                  <span class="method-name">testBuzzPointsUserPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBuzzPointsUserPage">
+                  </a> <!-- testBuzzPointsUserPage -->
+                  <span class="method-name">testBuzzPointsUserPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium-class-passed -->
+          <div class="suite-Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.code.java.selenium.EmployeeProfile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmployeeProfile">
+                  </a> <!-- testEmployeeProfile -->
+                  <span class="method-name">testEmployeeProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmployeeProfile">
+                  </a> <!-- testEmployeeProfile -->
+                  <span class="method-name">testEmployeeProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium-class-passed -->
+          <div class="suite-Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.code.java.selenium.FilesfromTeamwork</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilesfromTeamwork">
+                  </a> <!-- testFilesfromTeamwork -->
+                  <span class="method-name">testFilesfromTeamwork</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium-class-passed -->
+          <div class="suite-Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.code.java.selenium.MyProfile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyProfile">
+                  </a> <!-- testMyProfile -->
+                  <span class="method-name">testMyProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyProfile">
+                  </a> <!-- testMyProfile -->
+                  <span class="method-name">testMyProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium-class-passed -->
+          <div class="suite-Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.code.java.selenium.SignInPageandForgetPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testsignInPage">
+                  </a> <!-- testsignInPage -->
+                  <span class="method-name">testsignInPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium-class-passed -->
+          <div class="suite-Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.code.java.selenium.Dashboard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDashboard">
+                  </a> <!-- testDashboard -->
+                  <span class="method-name">testDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDashboard">
+                  </a> <!-- testDashboard -->
+                  <span class="method-name">testDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium-class-passed -->
+          <div class="suite-Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.code.java.selenium.EmployeeProfileEdit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmployeeProfileEdit">
+                  </a> <!-- testEmployeeProfileEdit -->
+                  <span class="method-name">testEmployeeProfileEdit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmployeeProfileEdit">
+                  </a> <!-- testEmployeeProfileEdit -->
+                  <span class="method-name">testEmployeeProfileEdit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium-class-passed -->
+          <div class="suite-Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.code.java.selenium.ReportPage_EnrollmentReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEnrollmentReport">
+                  </a> <!-- testEnrollmentReport -->
+                  <span class="method-name">testEnrollmentReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEnrollmentReport">
+                  </a> <!-- testEnrollmentReport -->
+                  <span class="method-name">testEnrollmentReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium-class-passed -->
+          <div class="suite-Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.code.java.selenium.ReportPage_RewardRedemptionReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRewardRedemptionReport">
+                  </a> <!-- testRewardRedemptionReport -->
+                  <span class="method-name">testRewardRedemptionReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRewardRedemptionReport">
+                  </a> <!-- testRewardRedemptionReport -->
+                  <span class="method-name">testRewardRedemptionReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium-class-passed -->
+          <div class="suite-Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.code.java.selenium.ReportPage_PreferredLocalBusinessReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPreferredLocalBusinessReport">
+                  </a> <!-- testPreferredLocalBusinessReport -->
+                  <span class="method-name">testPreferredLocalBusinessReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPreferredLocalBusinessReport">
+                  </a> <!-- testPreferredLocalBusinessReport -->
+                  <span class="method-name">testPreferredLocalBusinessReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium-class-passed -->
+          <div class="suite-Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.code.java.selenium.EmployeeManagementpage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmployeeManagementpage">
+                  </a> <!-- testEmployeeManagementpage -->
+                  <span class="method-name">testEmployeeManagementpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmployeeManagementpage">
+                  </a> <!-- testEmployeeManagementpage -->
+                  <span class="method-name">testEmployeeManagementpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium-class-passed -->
+          <div class="suite-Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.code.java.selenium.FilesfromTeamworkDev</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilesfromTeamwork">
+                  </a> <!-- testFilesfromTeamwork -->
+                  <span class="method-name">testFilesfromTeamwork</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium-class-passed -->
+          <div class="suite-Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.code.java.selenium.SignInPageandForgetPasswordTestDev</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testsignInPage">
+                  </a> <!-- testsignInPage -->
+                  <span class="method-name">testsignInPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium-class-passed -->
+          <div class="suite-Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.code.java.selenium.ReportPage_PendingEnrollmentsReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPendingEnrollmentsReport">
+                  </a> <!-- testPendingEnrollmentsReport -->
+                  <span class="method-name">testPendingEnrollmentsReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPendingEnrollmentsReport">
+                  </a> <!-- testPendingEnrollmentsReport -->
+                  <span class="method-name">testPendingEnrollmentsReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium-class-passed -->
+        </div> <!-- panel Selenium -->
+        <div panel-name="test-xml-Selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/Aditya/Documents/workspace/FIportalTestAutomation/resource/selenium.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; verbose=&quot;0&quot; name=&quot;Selenium&quot;&gt;
+  &lt;test name=&quot;Staging environment&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Aaaaaaa1&quot;/&gt;
+    &lt;parameter name=&quot;user&quot; value=&quot;admincadauto&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://insightstg.buzzpoints.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.code.java.selenium.FilesfromTeamwork&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.SignInPageandForgetPasswordTest&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.Dashboard&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.BuzzPointsUserPage&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.EmployeeManagementpage&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.EmployeeProfile&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.EmployeeProfileEdit&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.MyProfile&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.ReportPage_EnrollmentReport&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.ReportPage_PendingEnrollmentsReport&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.ReportPage_PreferredLocalBusinessReport&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.ReportPage_RewardRedemptionReport&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Staging environment --&gt;
+  &lt;test name=&quot;DevQA&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Aaaaaaa1&quot;/&gt;
+    &lt;parameter name=&quot;user&quot; value=&quot;admincadauto&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://hetzner.buzzpoints.com:3010/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.code.java.selenium.FilesfromTeamworkDev&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.SignInPageandForgetPasswordTestDev&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.Dashboard&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.BuzzPointsUserPage&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.EmployeeManagementpage&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.EmployeeProfile&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.EmployeeProfileEdit&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.MyProfile&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.ReportPage_EnrollmentReport&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.ReportPage_PendingEnrollmentsReport&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.ReportPage_PreferredLocalBusinessReport&quot;/&gt;
+      &lt;class name=&quot;com.code.java.selenium.ReportPage_RewardRedemptionReport&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DevQA --&gt;
+&lt;/suite&gt; &lt;!-- Selenium --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Selenium</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Staging environment (12 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">DevQA (12 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Selenium</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Selenium</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Selenium');
+function tableData_Selenium() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testPreferredLocalBusinessReport')
+data.setCell(0, 2, 'com.code.java.selenium.ReportPage_PreferredLocalBusinessReport')
+data.setCell(0, 3, 119810);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testPreferredLocalBusinessReport')
+data.setCell(1, 2, 'com.code.java.selenium.ReportPage_PreferredLocalBusinessReport')
+data.setCell(1, 3, 105514);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testRewardRedemptionReport')
+data.setCell(2, 2, 'com.code.java.selenium.ReportPage_RewardRedemptionReport')
+data.setCell(2, 3, 100179);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testRewardRedemptionReport')
+data.setCell(3, 2, 'com.code.java.selenium.ReportPage_RewardRedemptionReport')
+data.setCell(3, 3, 98700);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testPendingEnrollmentsReport')
+data.setCell(4, 2, 'com.code.java.selenium.ReportPage_PendingEnrollmentsReport')
+data.setCell(4, 3, 94089);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testPendingEnrollmentsReport')
+data.setCell(5, 2, 'com.code.java.selenium.ReportPage_PendingEnrollmentsReport')
+data.setCell(5, 3, 93004);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testEnrollmentReport')
+data.setCell(6, 2, 'com.code.java.selenium.ReportPage_EnrollmentReport')
+data.setCell(6, 3, 92795);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testEnrollmentReport')
+data.setCell(7, 2, 'com.code.java.selenium.ReportPage_EnrollmentReport')
+data.setCell(7, 3, 87596);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testEmployeeProfile')
+data.setCell(8, 2, 'com.code.java.selenium.EmployeeProfile')
+data.setCell(8, 3, 69684);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testEmployeeProfile')
+data.setCell(9, 2, 'com.code.java.selenium.EmployeeProfile')
+data.setCell(9, 3, 68900);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testDashboard')
+data.setCell(10, 2, 'com.code.java.selenium.Dashboard')
+data.setCell(10, 3, 53797);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testEmployeeManagementpage')
+data.setCell(11, 2, 'com.code.java.selenium.EmployeeManagementpage')
+data.setCell(11, 3, 51685);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testFilesfromTeamwork')
+data.setCell(12, 2, 'com.code.java.selenium.FilesfromTeamwork')
+data.setCell(12, 3, 50317);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testEmployeeManagementpage')
+data.setCell(13, 2, 'com.code.java.selenium.EmployeeManagementpage')
+data.setCell(13, 3, 48252);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testDashboard')
+data.setCell(14, 2, 'com.code.java.selenium.Dashboard')
+data.setCell(14, 3, 46574);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testEmployeeProfileEdit')
+data.setCell(15, 2, 'com.code.java.selenium.EmployeeProfileEdit')
+data.setCell(15, 3, 42248);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testBuzzPointsUserPage')
+data.setCell(16, 2, 'com.code.java.selenium.BuzzPointsUserPage')
+data.setCell(16, 3, 40311);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testEmployeeProfileEdit')
+data.setCell(17, 2, 'com.code.java.selenium.EmployeeProfileEdit')
+data.setCell(17, 3, 39134);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testBuzzPointsUserPage')
+data.setCell(18, 2, 'com.code.java.selenium.BuzzPointsUserPage')
+data.setCell(18, 3, 36272);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testMyProfile')
+data.setCell(19, 2, 'com.code.java.selenium.MyProfile')
+data.setCell(19, 3, 35003);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testFilesfromTeamwork')
+data.setCell(20, 2, 'com.code.java.selenium.FilesfromTeamworkDev')
+data.setCell(20, 3, 32261);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testMyProfile')
+data.setCell(21, 2, 'com.code.java.selenium.MyProfile')
+data.setCell(21, 3, 31323);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testsignInPage')
+data.setCell(22, 2, 'com.code.java.selenium.SignInPageandForgetPasswordTestDev')
+data.setCell(22, 3, 30041);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testsignInPage')
+data.setCell(23, 2, 'com.code.java.selenium.SignInPageandForgetPasswordTest')
+data.setCell(23, 3, 27552);
+window.suiteTableData['Selenium']= { tableData: data, tableDiv: 'times-div-Selenium'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 minutes</span>
+              <div id="times-div-Selenium">
+              </div> <!-- times-div-Selenium -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Selenium</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.FilesfromTeamwork</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(https://insightstg.buzzpoints.com, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testFilesfromTeamwork</span>
+                <span class="method-start">9027 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59347 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.SignInPageandForgetPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(https://insightstg.buzzpoints.com, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">59494 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testsignInPage</span>
+                <span class="method-start">65762 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93314 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.Dashboard</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(https://insightstg.buzzpoints.com, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">93458 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDashboard</span>
+                <span class="method-start">99617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">146193 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.BuzzPointsUserPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(https://insightstg.buzzpoints.com, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">146351 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testBuzzPointsUserPage</span>
+                <span class="method-start">152796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">189069 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.EmployeeManagementpage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(https://insightstg.buzzpoints.com, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">189232 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testEmployeeManagementpage</span>
+                <span class="method-start">195624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">243878 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.EmployeeProfile</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(https://insightstg.buzzpoints.com, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">244039 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testEmployeeProfile</span>
+                <span class="method-start">250008 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">318910 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.EmployeeProfileEdit</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(https://insightstg.buzzpoints.com, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">319084 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testEmployeeProfileEdit</span>
+                <span class="method-start">326205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">365339 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.MyProfile</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(https://insightstg.buzzpoints.com, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">365492 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testMyProfile</span>
+                <span class="method-start">371602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">402925 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.ReportPage_EnrollmentReport</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(https://insightstg.buzzpoints.com, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">403065 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testEnrollmentReport</span>
+                <span class="method-start">409215 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">496813 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.ReportPage_PendingEnrollmentsReport</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(https://insightstg.buzzpoints.com, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">496956 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPendingEnrollmentsReport</span>
+                <span class="method-start">513109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">606114 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.ReportPage_PreferredLocalBusinessReport</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(https://insightstg.buzzpoints.com, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">606279 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPreferredLocalBusinessReport</span>
+                <span class="method-start">615581 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">721099 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.ReportPage_RewardRedemptionReport</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(https://insightstg.buzzpoints.com, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">721251 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testRewardRedemptionReport</span>
+                <span class="method-start">728584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">827289 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.FilesfromTeamworkDev</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(http://hetzner.buzzpoints.com:3010/, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">828015 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testFilesfromTeamwork</span>
+                <span class="method-start">838301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">870563 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.SignInPageandForgetPasswordTestDev</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(http://hetzner.buzzpoints.com:3010/, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">870725 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testsignInPage</span>
+                <span class="method-start">880333 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">910374 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.Dashboard</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(http://hetzner.buzzpoints.com:3010/, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">910521 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDashboard</span>
+                <span class="method-start">920404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">974205 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.BuzzPointsUserPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(http://hetzner.buzzpoints.com:3010/, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">974377 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testBuzzPointsUserPage</span>
+                <span class="method-start">984106 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1024420 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.EmployeeManagementpage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(http://hetzner.buzzpoints.com:3010/, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">1024601 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testEmployeeManagementpage</span>
+                <span class="method-start">1035177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1086864 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.EmployeeProfile</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(http://hetzner.buzzpoints.com:3010/, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">1087044 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testEmployeeProfile</span>
+                <span class="method-start">1095832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1165518 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.EmployeeProfileEdit</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(http://hetzner.buzzpoints.com:3010/, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">1165666 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testEmployeeProfileEdit</span>
+                <span class="method-start">1174452 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1216701 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.MyProfile</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(http://hetzner.buzzpoints.com:3010/, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">1216844 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testMyProfile</span>
+                <span class="method-start">1226665 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1261672 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.ReportPage_EnrollmentReport</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(http://hetzner.buzzpoints.com:3010/, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">1261825 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testEnrollmentReport</span>
+                <span class="method-start">1271207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1364004 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.ReportPage_PendingEnrollmentsReport</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(http://hetzner.buzzpoints.com:3010/, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">1364168 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPendingEnrollmentsReport</span>
+                <span class="method-start">1373190 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1467285 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.ReportPage_PreferredLocalBusinessReport</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(http://hetzner.buzzpoints.com:3010/, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">1467461 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPreferredLocalBusinessReport</span>
+                <span class="method-start">1480678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1600490 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.code.java.selenium.ReportPage_RewardRedemptionReport</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(http://hetzner.buzzpoints.com:3010/, admincadauto, Aaaaaaa1)</span>
+                <span class="method-start">1600635 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testRewardRedemptionReport</span>
+                <span class="method-start">1609837 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1710017 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

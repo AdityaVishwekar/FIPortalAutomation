@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Staging environment</td><td class="numi">12</td><td class="numi">12</td><td class="numi">0</td><td class="numi">0</td><td class="numi">827.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">DevQA</td><td class="numi">12</td><td class="numi">12</td><td class="numi">0</td><td class="numi">0</td><td class="numi">882.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">24</td><td class="numi">24</td><td class="numi">0</td><td class="numi">0</td><td class="numi">1,710.2 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Staging environment &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.code.java.selenium.FilesfromTeamwork</td><td><a href="#m1"><b>testFilesfromTeamwork</b>  </a></td><td class="numi">1</td><td>1471977634406</td><td class="numi">50317</td></tr>
+<tr class="passedeven"><td rowspan="1">com.code.java.selenium.SignInPageandForgetPasswordTest</td><td><a href="#m2"><b>testsignInPage</b>  </a></td><td class="numi">1</td><td>1471977691141</td><td class="numi">27552</td></tr>
+<tr class="passedodd"><td rowspan="1">com.code.java.selenium.Dashboard</td><td><a href="#m3"><b>testDashboard</b>  </a></td><td class="numi">1</td><td>1471977724996</td><td class="numi">46574</td></tr>
+<tr class="passedeven"><td rowspan="1">com.code.java.selenium.BuzzPointsUserPage</td><td><a href="#m4"><b>testBuzzPointsUserPage</b>  </a></td><td class="numi">1</td><td>1471977778175</td><td class="numi">36272</td></tr>
+<tr class="passedodd"><td rowspan="1">com.code.java.selenium.EmployeeManagementpage</td><td><a href="#m5"><b>testEmployeeManagementpage</b>  </a></td><td class="numi">1</td><td>1471977821003</td><td class="numi">48252</td></tr>
+<tr class="passedeven"><td rowspan="1">com.code.java.selenium.EmployeeProfile</td><td><a href="#m6"><b>testEmployeeProfile</b>  </a></td><td class="numi">1</td><td>1471977875387</td><td class="numi">68900</td></tr>
+<tr class="passedodd"><td rowspan="1">com.code.java.selenium.EmployeeProfileEdit</td><td><a href="#m7"><b>testEmployeeProfileEdit</b>  </a></td><td class="numi">1</td><td>1471977951584</td><td class="numi">39134</td></tr>
+<tr class="passedeven"><td rowspan="1">com.code.java.selenium.MyProfile</td><td><a href="#m8"><b>testMyProfile</b>  </a></td><td class="numi">1</td><td>1471977996981</td><td class="numi">31323</td></tr>
+<tr class="passedodd"><td rowspan="1">com.code.java.selenium.ReportPage_EnrollmentReport</td><td><a href="#m9"><b>testEnrollmentReport</b>  </a></td><td class="numi">1</td><td>1471978034594</td><td class="numi">87596</td></tr>
+<tr class="passedeven"><td rowspan="1">com.code.java.selenium.ReportPage_PendingEnrollmentsReport</td><td><a href="#m10"><b>testPendingEnrollmentsReport</b>  </a></td><td class="numi">1</td><td>1471978138488</td><td class="numi">93004</td></tr>
+<tr class="passedodd"><td rowspan="1">com.code.java.selenium.ReportPage_PreferredLocalBusinessReport</td><td><a href="#m11"><b>testPreferredLocalBusinessReport</b>  </a></td><td class="numi">1</td><td>1471978240960</td><td class="numi">105514</td></tr>
+<tr class="passedeven"><td rowspan="1">com.code.java.selenium.ReportPage_RewardRedemptionReport</td><td><a href="#m12"><b>testRewardRedemptionReport</b>  </a></td><td class="numi">1</td><td>1471978353963</td><td class="numi">98700</td></tr>
+<tr><th colspan="4">DevQA &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.code.java.selenium.FilesfromTeamworkDev</td><td><a href="#m13"><b>testFilesfromTeamwork</b>  </a></td><td class="numi">1</td><td>1471978463680</td><td class="numi">32261</td></tr>
+<tr class="passedeven"><td rowspan="1">com.code.java.selenium.SignInPageandForgetPasswordTestDev</td><td><a href="#m14"><b>testsignInPage</b>  </a></td><td class="numi">1</td><td>1471978505712</td><td class="numi">30041</td></tr>
+<tr class="passedodd"><td rowspan="1">com.code.java.selenium.Dashboard</td><td><a href="#m15"><b>testDashboard</b>  </a></td><td class="numi">1</td><td>1471978545783</td><td class="numi">53797</td></tr>
+<tr class="passedeven"><td rowspan="1">com.code.java.selenium.BuzzPointsUserPage</td><td><a href="#m16"><b>testBuzzPointsUserPage</b>  </a></td><td class="numi">1</td><td>1471978609485</td><td class="numi">40311</td></tr>
+<tr class="passedodd"><td rowspan="1">com.code.java.selenium.EmployeeManagementpage</td><td><a href="#m17"><b>testEmployeeManagementpage</b>  </a></td><td class="numi">1</td><td>1471978660556</td><td class="numi">51685</td></tr>
+<tr class="passedeven"><td rowspan="1">com.code.java.selenium.EmployeeProfile</td><td><a href="#m18"><b>testEmployeeProfile</b>  </a></td><td class="numi">1</td><td>1471978721211</td><td class="numi">69684</td></tr>
+<tr class="passedodd"><td rowspan="1">com.code.java.selenium.EmployeeProfileEdit</td><td><a href="#m19"><b>testEmployeeProfileEdit</b>  </a></td><td class="numi">1</td><td>1471978799831</td><td class="numi">42248</td></tr>
+<tr class="passedeven"><td rowspan="1">com.code.java.selenium.MyProfile</td><td><a href="#m20"><b>testMyProfile</b>  </a></td><td class="numi">1</td><td>1471978852044</td><td class="numi">35003</td></tr>
+<tr class="passedodd"><td rowspan="1">com.code.java.selenium.ReportPage_EnrollmentReport</td><td><a href="#m21"><b>testEnrollmentReport</b>  </a></td><td class="numi">1</td><td>1471978896586</td><td class="numi">92795</td></tr>
+<tr class="passedeven"><td rowspan="1">com.code.java.selenium.ReportPage_PendingEnrollmentsReport</td><td><a href="#m22"><b>testPendingEnrollmentsReport</b>  </a></td><td class="numi">1</td><td>1471978998569</td><td class="numi">94089</td></tr>
+<tr class="passedodd"><td rowspan="1">com.code.java.selenium.ReportPage_PreferredLocalBusinessReport</td><td><a href="#m23"><b>testPreferredLocalBusinessReport</b>  </a></td><td class="numi">1</td><td>1471979106057</td><td class="numi">119810</td></tr>
+<tr class="passedeven"><td rowspan="1">com.code.java.selenium.ReportPage_RewardRedemptionReport</td><td><a href="#m24"><b>testRewardRedemptionReport</b>  </a></td><td class="numi">1</td><td>1471979235216</td><td class="numi">100179</td></tr>
+</table>
+<h1>Staging environment</h1>
+<h2 id="m1">com.code.java.selenium.Dashboard:testDashboard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.code.java.selenium.EmployeeManagementpage:testEmployeeManagementpage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.code.java.selenium.EmployeeProfile:testEmployeeProfile</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.code.java.selenium.MyProfile:testMyProfile</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.code.java.selenium.ReportPage_RewardRedemptionReport:testRewardRedemptionReport</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.code.java.selenium.SignInPageandForgetPasswordTest:testsignInPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.code.java.selenium.BuzzPointsUserPage:testBuzzPointsUserPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.code.java.selenium.EmployeeProfileEdit:testEmployeeProfileEdit</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.code.java.selenium.ReportPage_PendingEnrollmentsReport:testPendingEnrollmentsReport</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.code.java.selenium.FilesfromTeamwork:testFilesfromTeamwork</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.code.java.selenium.ReportPage_PreferredLocalBusinessReport:testPreferredLocalBusinessReport</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.code.java.selenium.ReportPage_EnrollmentReport:testEnrollmentReport</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>DevQA</h1>
+<h2 id="m13">com.code.java.selenium.MyProfile:testMyProfile</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.code.java.selenium.ReportPage_PreferredLocalBusinessReport:testPreferredLocalBusinessReport</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.code.java.selenium.ReportPage_PendingEnrollmentsReport:testPendingEnrollmentsReport</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.code.java.selenium.ReportPage_EnrollmentReport:testEnrollmentReport</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.code.java.selenium.SignInPageandForgetPasswordTestDev:testsignInPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.code.java.selenium.EmployeeProfile:testEmployeeProfile</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.code.java.selenium.EmployeeManagementpage:testEmployeeManagementpage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.code.java.selenium.EmployeeProfileEdit:testEmployeeProfileEdit</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.code.java.selenium.Dashboard:testDashboard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.code.java.selenium.BuzzPointsUserPage:testBuzzPointsUserPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">com.code.java.selenium.FilesfromTeamworkDev:testFilesfromTeamwork</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.code.java.selenium.ReportPage_RewardRedemptionReport:testRewardRedemptionReport</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Maven Two" parallel="false">
+	<test name="TestNg Maven Two" preserve-order="true">
+		<classes>
+			<class name="com.code.mvn.TestNGTestMaven" />
+		</classes>
+	</test>
+</suite> 
